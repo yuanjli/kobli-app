@@ -8,7 +8,9 @@ class Team extends Component {
 
   render() {
 
-  	const currentTeam = this.props.team.team.map(person => <p><a href="#">{person}</a></p> ) 
+
+  	const currentTeam = this.props.team.team.map(person => <p><a href="#">{person}</a></p> )
+
 
     return (
 

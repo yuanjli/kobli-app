@@ -6,6 +6,7 @@ import Home from './Home';
 import Class from './Class';
 import Attendance from './Attendance';
 import Randomizer from './Randomizer';
+import Team from './Team';
 
 
 class App extends Component {
