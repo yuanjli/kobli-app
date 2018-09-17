@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Class from './Class';
 import Attendance from './Attendance';
 import Randomizer from './Randomizer';
+
 
 
 class App extends Component {

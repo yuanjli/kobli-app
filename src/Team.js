@@ -8,7 +8,9 @@ class Team extends Component {
 
   render() {
 
-  	const currentTeam = this.props.team.team.map(person => <p><a href="#">{person}</a></p> ) 
+
+  	const currentTeam = this.props.team.team.map((person, indx) => <p key={indx}><a href="#" >{person}</a></p> )
+
 
     return (
 
@@ -17,7 +19,7 @@ class Team extends Component {
           <div>
             <div className="card col s12 m12 l12">
 			    <div className="card-image waves-effect waves-block waves-light">
-			      <img className="activator img-size" src="https://laborplaststorage.blob.core.windows.net/imgsito/49a87d99-e999-4bde-b790-ef32015c107d.jpg" />
+			      <img className="activator img-size" alt="" src="https://laborplaststorage.blob.core.windows.net/imgsito/49a87d99-e999-4bde-b790-ef32015c107d.jpg" />
 			    </div>
 			    <div className="card-content">
 			      <span className="card-title activator grey-text text-darken-4">
